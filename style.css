@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cover{
+    position: absolute;
+    height: 500px;
+    background-color: black;
+    width:100%;
+    
+}
+
+header{
+    position: sticky;
+    z-index: 1;
+    top: 2px;
+    
+}
+.navbar{
+    height: 45px;
+    margin: 0px 333px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 12px;
+    align-items: center;
+    width: 62%;
+    box-shadow: rgb(28, 28, 28) 0px 20px 30px -10px;
+}
+.navbar a{
+    color: #a8a8a8;
+    text-decoration: none;
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.prime{
+    padding-left: 15px;
+    width: 15%;
+    
+    
+}
+
+
+
+.prime a{
+    color: white;
+    text-decoration: none;
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.middle{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.right{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.right i{
+    font-size:18px
+}
+.acc{
+    width: 5%;
+    position: relative;
+    display: inline-block;
+}
+.acc img{
+    width: 22px;
+}
+
+.blocks{
+    height: 100%;
+    width: 100%;
+    font-family: "Amazon Ember";
+}
+
+.block1{
+    background-color: black;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)), url(img/block1.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-position-x: right;
+    position: relative;
+}
+.welcome{
+    position: absolute;
+    color: white;
+    top: 125px;
+    left: 180px;
+}
+#id1{
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.welcome pre{
+    font-family: "Amazon Ember";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.welcome button{
+    background-color: #0f79af;
+    font-family: Amazon Ember;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    color: white;
+    border: 1px solid #0f79af;
+    border-radius: 4px;
+    height: 52px;
+    width: 258px;
+}
+.welcome button:hover{
+    background-color:#189fe2 ;
+}
+
+.block2{
+    
+    color: white;
+    background-color: black;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)),url(img/block2.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+.rentals{
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 790px;
+
+}
+#id3{
+    font-family: "Amazon Ember Light";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+#id4{
+    font-family: "Amazon Ember Light";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.rentals button{
+    background-color: #0f79af;
+    font-family: Amazon Ember;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    color: white;
+    border: 1px solid #0f79af;
+    border-radius: 4px;
+    height: 52px;
+    width: 258px;
+}
+.block3{
+    background-color: white;
+    height: 600px;
+    position: relative;
+    color: black;
+}
+.fav{
+    position: absolute;
+    top: 34px;
+    left: 180px;
+}
+#id5{
+    font-family: "Amazon Ember";
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 50px;
+}
+#id6{
+    font-family: "Amazon Ember";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.grid{
+    position: absolute;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    top: 12px;
+    left: 876px;
+}
+.grid_btn{
+    width: auto;
+}
+.btn{
+    background-color: aqua;
+    width: 195px;
+    height: 140px;
+}
+#b1{
+    background-image: url(img/lion.png);
+    background-size: cover;
+}
+#b2{
+    background-image: url(img/discovery.png);
+    background-size: cover;
+}
+#b3{
+    background-image: url(img/eros.png);
+    background-size: cover;
+}
+#b4{
+    background-image: url(img/manorama.png);
+    background-size: cover;
+}
+#b5{
+    background-image: url(img/hocho.png);
+    background-size: cover;
+}
+#b6{
+    background-image: url(img/vbOtt.png);
+    background-size: cover;
+}
+#b7{
+    background-image: url(img/amc+.png);
+    background-size: cover;
+}
+#b8{
+    background-image: url(img/docubay.png);
+    background-size: cover;
+}
+#b9{
+    background-image: url(img/mubi.png);
+    background-size: cover;
+}
+#b10{
+    background-image: url(img/iwonder.png);
+    background-size: cover;
+}
+#b11{
+    background-image: url(img/stingray.png);
+    background-size: cover;
+}
+#b12{
+    background-image: url(img/curiosity.png);
+    background-size: cover;
+}
+
+
+.grid_btn:hover{
+    box-shadow: rgb(0, 0, 0) 5px 30px 30px -10px;
+}
+
+.block4{
+    background-color: black;
+    background-image: url(img/block4.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+    position: relative;
+    
+}
+.fire{
+    position: absolute;
+    top: 150px;
+    left: 790px;
+}
+#id7{
+    font-family: "Amazon Ember Light";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+#id8{
+    font-family: "Amazon Ember Light";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.block4 button{
+    background-color: #0f79af;
+    font-family: Amazon Ember;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    color: white;
+    border: 1px solid #0f79af;
+    border-radius: 4px;
+    height: 52px;
+    width: 258px;
+}
+.block5{
+    background-color: black;
+    background-image: url(img/block5.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position-x: right;
+    position: relative;
+}
+.family{
+    color: white;
+    position: absolute;
+    top: 125px;
+    left: 180px;
+}
+#id9{
+    font-family: "Amazon Ember Light";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+#id10{
+    font-family: "Amazon Ember Light";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.family button{
+    background-color: #0f79af;
+    font-family: Amazon Ember;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    color: white;
+    border: 1px solid #0f79af;
+    border-radius: 4px;
+    height: 52px;
+    width: 258px;
+}
+footer{
+    height: 110px;
+    background-color: #222222;
+    text-align: center;
+}
+.foot{
+    font-family: "Amazon Ember";
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 20px;
+}
+.foot a{
+    text-decoration: none;
+    color: #0f79af;
+}
+.foot p{
+    color: #949494;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.home{
+    position: relative;
+    display: inline-block;
+}
+
+.store{
+    position: relative;
+    display: inline-block;
+}
+
+.categories{
+    position: relative;
+    display: inline-block;
+}
+
+.sub{
+    position: relative;
+    display: inline-block;
+}
+
+.lang{
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+.content{
+    display: none;
+    position: absolute;
+    background-color: #1b3e4e;
+    width: 100px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.home:hover .content{
+    display: block;
+
+}
+.store:hover .content{
+    display: block;
+}
+.categories:hover .content{
+    display: block;
+}
+.sub:hover .content{
+    display: block;
+}
+.lang:hover .content{
+    display: block;
+}
+.acc:hover .content{
+    display: block;
+}
+
